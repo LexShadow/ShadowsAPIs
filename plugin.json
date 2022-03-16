@@ -5,7 +5,7 @@
     "name": "ShadowsAPIs",
     "version": "1.0.0.4",
     "author": "Miss Lexy Shadows",
-	"credits": "SirStig for giving me the drive to get this done & Goldorion for is well documented source for me to learn from.",
+    "credits": "SirStig for giving me the drive to get this done & Goldorion for is well documented source for me to learn from.",
     "description": "Adds API's to MCreator.",
     "updateJSONURL": "https://raw.githubusercontent.com/LexShadow/ShadowsAPIs/main/update.json",
     "pluginPageID": 84967
