@@ -1,7 +1,7 @@
 # ShadowsAPIs
 APIs added to MCreator
 
-![Image](https://i.imgur.com/JePHQWG.png)
+![image](https://user-images.githubusercontent.com/70896639/158690324-ea5964c7-bcc1-418e-8b1f-91936366fd20.png)
 
 
 If you make any changes to this source please submit a request to have it added, or fork it and comtact me about the changes so I can see it and maybe pull the changes back in to the plugin.
@@ -9,7 +9,8 @@ If you make any changes to this source please submit a request to have it added,
 This plugin will not work with other plugins that add
 
 - JEI ([Wiki](https://github.com/mezz/JustEnoughItems/wiki))
-- Patchouli ([Docs]())
+- Patchouli ([Docs](https://vazkiimods.github.io/Patchouli/))
+- Bookshelf ([Doc](https://github.com/Darkhax-Minecraft/Bookshelf/wiki))
 
 
 if you fork this plugin change or remove 
