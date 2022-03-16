@@ -17,3 +17,9 @@ if you fork this plugin change or remove
 "pluginPageID": 84967
 ```
 as this is related to my version of the plugin
+
+
+
+## Disclaimer
+This project is not official, and it is not affiliated with Pylo. Do not expect any official support from them.
+This plugin may contain bugs or break workspaces in any version. You are responsible for making backups of your workspaces before updating to a newer version.
