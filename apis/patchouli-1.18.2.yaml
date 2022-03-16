@@ -1,0 +1,15 @@
+forge-1.18.2:
+  gradle: |
+      repositories {
+        maven {
+          url = "https://maven.blamejared.com"
+        }
+      }
+      
+      dependencies {
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-66:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-66")
+      }
+  update_files:
+    - ~
+name: "Patchouli"

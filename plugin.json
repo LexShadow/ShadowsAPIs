@@ -1,0 +1,10 @@
+{
+  "id": "shadowsapis",
+  "minversion": 202000400000,
+  "info": {
+    "name": "ShadowsAPIs",
+    "version": "1.0.0.0",
+	"author": "Miss Lexy Shadows",
+    "description": "Adds API's to MCreator."
+  }
+}
