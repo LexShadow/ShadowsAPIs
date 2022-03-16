@@ -6,6 +6,7 @@
     "version": "1.0.0.0",
     "author": "Miss Lexy Shadows",
     "description": "Adds API's to MCreator.",
+    "updateJSONURL": "https://raw.githubusercontent.com/LexShadow/ShadowsAPIs/main/update.json",
     "pluginPageID": 84967
   }
 }
