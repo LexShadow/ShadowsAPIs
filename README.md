@@ -10,3 +10,10 @@ This plugin will not work with other plugins that add
 
 - JEI ([Wiki](https://github.com/mezz/JustEnoughItems/wiki))
 - Patchouli ([Docs]())
+
+
+if you fork this plugin change or remove 
+```json
+"pluginPageID": 84967
+```
+as this is related to my version of the plugin
