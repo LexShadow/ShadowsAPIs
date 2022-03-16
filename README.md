@@ -13,8 +13,9 @@ This plugin will not work with other plugins that add
 - Bookshelf ([Doc](https://github.com/Darkhax-Minecraft/Bookshelf/wiki))
 
 
-if you fork this plugin change or remove 
+if you fork this plugin change or remove these lines to match your vrsion 
 ```json
+"updateJSONURL": "https://raw.githubusercontent.com/LexShadow/ShadowsAPIs/main/update.json",
 "pluginPageID": 84967
 ```
 as this is related to my version of the plugin
