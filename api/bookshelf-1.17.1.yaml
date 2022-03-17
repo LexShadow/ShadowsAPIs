@@ -1,0 +1,15 @@
+forge-1.17.1:
+  gradle: |
+      repositories {
+        maven {
+          url = "https://maven.blamejared.com"
+        }
+      }
+      
+      dependencies {
+        compileOnly fg.deobf("net.darkhax.bookshelf:Bookshelf-Forge-1.17.1:11.0.3")
+        runtimeOnly fg.deobf("net.darkhax.bookshelf:Bookshelf-Forge-1.17.1:11.0.3")
+      }
+  update_files:
+    - ~
+name: "Bookshelf"
