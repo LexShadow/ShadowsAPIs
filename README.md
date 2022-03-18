@@ -2,7 +2,7 @@
 APIs added to MCreator
 
 <p align="center">
-  <img width="564" height="275" src="https://i.imgur.com/PG4FeAh.png">
+  <img width="564" height="275" src="https://i.imgur.com/ftBbhnj.png">
 </p>
 
 If you make any changes to this source please submit a request to have it added, or fork it and comtact me about the changes so I can see it and maybe pull the changes back in to the plugin.
