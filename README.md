@@ -13,6 +13,9 @@ This plugin will not work with other plugins that add
 - CaftTweaker ([Doc](https://docs.blamejared.com/))
 - Patchouli ([Docs](https://vazkiimods.github.io/Patchouli/))
 - Bookshelf ([Doc](https://github.com/Darkhax-Minecraft/Bookshelf/wiki))
+- Jade ()
+- Cealus ()
+- Guidebook ()
 
 
 if you fork this plugin change or remove these lines to match your vrsion 
