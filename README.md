@@ -9,13 +9,15 @@ If you make any changes to this source please submit a request to have it added,
 
 This plugin will not work with other plugins that add
 
+- Cloth Config ([Doc](https://shedaniel.gitbook.io/cloth-config/))
+- Architectury API ([GitHub](https://github.com/architectury/architectury-api)) 
 - JEI ([Wiki](https://github.com/mezz/JustEnoughItems/wiki))
 - CaftTweaker ([Doc](https://docs.blamejared.com/))
 - Patchouli ([Docs](https://vazkiimods.github.io/Patchouli/))
-- Bookshelf ([Doc](https://github.com/Darkhax-Minecraft/Bookshelf/wiki))
+- Bookshelf ([Wiki](https://github.com/Darkhax-Minecraft/Bookshelf/wiki))
 - Jade ([Doc](https://jademc.readthedocs.io/en/latest/))
-- Cealus ([Doc](https://github.com/TheIllusiveC4/Caelus))
-- Guidebook ([Doc](https://github.com/gigaherz/Guidebook/wiki))
+- Cealus ([GitHub](https://github.com/TheIllusiveC4/Caelus))
+- Guidebook ([Wiki](https://github.com/gigaherz/Guidebook/wiki))
 
 
 if you fork this plugin change or remove these lines to match your vrsion 
