@@ -107,8 +107,8 @@ forge-1.18.2:
       }
       
       dependencies {
-        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-66:api")
-        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-66")
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-70:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.18.2-70")
       }
   update_files:
     - ~
@@ -121,7 +121,7 @@ fabric-1.18.2:
       }
       
       dependencies {
-        modImplementation "vazkii.patchouli:Patchouli:1.18.2-66"
+        modImplementation "vazkii.patchouli:Patchouli:1.18.2-70"
       }
   update_files:
     - ~    
