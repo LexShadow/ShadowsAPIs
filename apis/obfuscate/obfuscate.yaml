@@ -1,0 +1,17 @@
+forge-1.16.5:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:obfuscate-289380:3740120")
+       runtimeOnly fg.deobf("curse.maven:obfuscate-289380:3740120")
+    }
+  update_files:
+    - ~
+name: "obfuscate"

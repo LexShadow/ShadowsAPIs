@@ -9,40 +9,8 @@ forge-1.16.5:
         }
     }
     dependencies {
-       compileOnly fg.deobf("curse.maven:architectury-forge-419699:3671614")
-       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:3671614")
-    }
-  update_files:
-    - ~
-forge-1.17.1:
-  gradle: |
-    repositories {
-        maven {
-            url "https://www.cursemaven.com"
-            content {
-                includeGroup "curse.maven"
-            }
-        }
-    }
-    dependencies {
-       compileOnly fg.deobf("curse.maven:architectury-forge-419699:3636548")
-       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:3636548")
-    }
-  update_files:
-    - ~
-forge-1.18.1:
-  gradle: |
-    repositories {
-        maven {
-            url "https://www.cursemaven.com"
-            content {
-                includeGroup "curse.maven"
-            }
-        }
-    }
-    dependencies {
-       compileOnly fg.deobf("curse.maven:architectury-forge-419699:3587338")
-       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:3587338")
+       compileOnly fg.deobf("curse.maven:architectury-forge-419699:3801558")
+       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:3801558")
     }
   update_files:
     - ~
@@ -57,8 +25,24 @@ forge-1.18.2:
         }
     }
     dependencies {
-       compileOnly fg.deobf("curse.maven:architectury-forge-419699:3684743")
-       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:3684743")
+       compileOnly fg.deobf("curse.maven:architectury-forge-419699:4040966")
+       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:4040966")
+    }
+  update_files:
+    - ~
+forge-1.19:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:architectury-forge-419699:4104616")
+       runtimeOnly fg.deobf("curse.maven:architectury-forge-419699:4104616")
     }
   update_files:
     - ~

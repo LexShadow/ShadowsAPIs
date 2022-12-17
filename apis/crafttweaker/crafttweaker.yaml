@@ -9,12 +9,12 @@ forge-1.16.5:
       }
       
       dependencies {
-        compileOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-1.16.5:7.1.2.505')
-        runtimeOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-1.16.5:7.1.2.505')
+        compileOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.16.5:7.1.2.505')
+        runtimeOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.16.5:7.1.2.505')
       }
   update_files:
     - ~
-forge-1.17.1:
+forge-1.18.2:
   gradle: |
       repositories {
         maven {
@@ -25,12 +25,12 @@ forge-1.17.1:
       }
       
       dependencies {
-        compileOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.17.1:8.0.0+32')
-        runtimeOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.17.1:8.0.0+32')
+        compileOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.18.2:9.1.197')
+        runtimeOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.18.2:9.1.197')
       }
   update_files:
     - ~
-fabric-1.17.1:
+forge-1.19.2:
   gradle: |
       repositories {
         maven {
@@ -41,39 +41,8 @@ fabric-1.17.1:
       }
       
       dependencies {
-        compileOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-fabric-1.17.1:8.0.0+32')
-        runtimeOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-fabric-1.17.1:8.0.0+32')
-      }
-  update_files:
-    - ~
-forge-1.18.1:
-  gradle: |
-      repositories {
-        maven {
-          name = "BlameJared Maven"
-          url = 'https://maven.blamejared.com'
-        }    
-      }
-      
-      dependencies {
-        compileOnly(fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.18.1:9.0.80'))
-        runtimeOnly(fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.18.1:9.0.80'))
-      }
-  update_files:
-    - ~
-fabric-1.18.1:
-  gradle: |
-      repositories {
-        maven {
-          // location of the maven that hosts JEI files
-          name = "BlameJared Maven"
-          url = 'https://maven.blamejared.com'
-        }    
-      }
-      
-      dependencies {
-        compileOnly(fg.deobf('com.blamejared.crafttweaker:CraftTweaker-fabric-1.18.1:9.0.80'))
-        runtimeOnly(fg.deobf('com.blamejared.crafttweaker:CraftTweaker-fabric-1.18.1:9.0.80'))
+        compileOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.16.5:10.0.16')
+        runtimeOnly fg.deobf('com.blamejared.crafttweaker:CraftTweaker-forge-1.16.5:10.0.16')
       }
   update_files:
     - ~

@@ -14,50 +14,8 @@ forge-1.16.5:
       }
       
       dependencies {
-        compileOnly fg.deobf("mezz.jei:jei-1.16.5:7.6.1.75:api")
-        runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.6.1.75")
-      }
-  update_files:
-    - ~
-forge-1.17.1:
-  gradle: |
-      repositories {
-        maven {
-          // location of the maven that hosts JEI files
-          name = "Progwml6 maven"
-          url = "https://dvs1.progwml6.com/files/maven/"
-        }    
-        maven {
-          // location of a maven mirror for JEI files, as a fallback
-          name = "ModMaven"
-          url = "https://modmaven.k-4u.nl"
-        }    
-      }
-      
-      dependencies {
-        compileOnly fg.deobf("mezz.jei:jei-1.17.1:8.3.1.59:api")
-        runtimeOnly fg.deobf("mezz.jei:jei-1.17.1:8.3.1.59")
-      }
-  update_files:
-    - ~
-forge-1.18.1:
-  gradle: |
-      repositories {
-        maven {
-          // location of the maven that hosts JEI files
-          name = "Progwml6 maven"
-          url = "https://dvs1.progwml6.com/files/maven/"
-        }    
-        maven {
-          // location of a maven mirror for JEI files, as a fallback
-          name = "ModMaven"
-          url = "https://modmaven.k-4u.nl"
-        }    
-      }
-      
-      dependencies {
-        compileOnly fg.deobf("mezz.jei:jei-1.18.1:9.1.0.44:api")
-        runtimeOnly fg.deobf("mezz.jei:jei-1.18.1:9.1.0.44")
+        compileOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153:api")
+        runtimeOnly fg.deobf("mezz.jei:jei-1.16.5:7.7.1.153")
       }
   update_files:
     - ~
@@ -77,9 +35,31 @@ forge-1.18.2:
       }
       
       dependencies {
-        compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.5.0.132:api")
-        runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.5.0.132")
+        compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.1.255:api")
+        runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.1.255")
       }
   update_files:
-    - ~    
+    - ~ 
+forge-1.19.2:
+  gradle: |
+      repositories {
+        maven {
+          // location of the maven that hosts JEI files
+          name = "Progwml6 maven"
+          url = "https://dvs1.progwml6.com/files/maven/"
+        }    
+        maven {
+          // location of a maven mirror for JEI files, as a fallback
+          name = "ModMaven"
+          url = "https://modmaven.dev"
+        }   
+      }
+      
+      dependencies {
+        compileOnly fg.deobf("mezz.jei:jei-1.19.2-common-api:11.4.0.286")
+        compileOnly fg.deobf("mezz.jei:jei-1.19.2-forge-api:11.4.0.286")
+        runtimeOnly fg.deobf("mezz.jei:jei-1.19.2-forge:11.4.0.286")
+      }
+  update_files:
+    - ~ 
 name: "Just enough Items"

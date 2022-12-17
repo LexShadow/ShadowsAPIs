@@ -20,76 +20,6 @@ forge-1.16.5:
       }
   update_files:
     - ~
-forge-1.17.1:
-  gradle: |
-      minecraft {
-        runs {
-            client {
-                property 'mixin.env.remapRefMap', 'true'
-                property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-            }
-        }
-      }
-      repositories {
-        maven {
-          url = "https://maven.blamejared.com"
-        }
-      }
-      
-      dependencies {
-        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.17.1-58-SNAPSHOT:api")
-        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.17.1-58-SNAPSHOT")
-      }
-  update_files:
-    - ~
-fabric-1.17.1:
-  gradle: |
-      repositories {
-        maven {
-          url = "https://maven.blamejared.com"
-        }
-      }
-      
-      dependencies {
-        modImplementation "vazkii.patchouli:Patchouli:1.17.1-59"
-      }
-  update_files:
-    - ~
-forge-1.18.1:
-  gradle: |
-      minecraft {
-        runs {
-            client {
-                property 'mixin.env.remapRefMap', 'true'
-                property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-            }
-        }
-      }
-      repositories {
-        maven {
-          url = "https://maven.blamejared.com"
-        }
-      }
-      
-      dependencies {
-        compileOnly fg.deobf('vazkii.patchouli:Patchouli:1.18.1-65:api')
-        runtimeOnly fg.deobf('vazkii.patchouli:Patchouli:1.18.1-65')
-      }
-  update_files:
-    - ~
-fabric-1.18.1:
-  gradle: |
-      repositories {
-        maven {
-          url = 'https://maven.blamejared.com'
-        }
-      }
-      
-      dependencies {
-        modImplementation 'vazkii.patchouli:Patchouli:1.18.1-65'
-      }
-  update_files:
-    - ~
 forge-1.18.2:
   gradle: |
       minecraft {
@@ -112,8 +42,16 @@ forge-1.18.2:
       }
   update_files:
     - ~
-fabric-1.18.2:
+forge-1.19.2:
   gradle: |
+      minecraft {
+        runs {
+            client {
+                property 'mixin.env.remapRefMap', 'true'
+                property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            }
+        }
+      }
       repositories {
         maven {
           url = "https://maven.blamejared.com"
@@ -121,8 +59,9 @@ fabric-1.18.2:
       }
       
       dependencies {
-        modImplementation "vazkii.patchouli:Patchouli:1.18.2-70"
+        compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.2-77:api")
+        runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.2-77")
       }
   update_files:
-    - ~    
+    - ~  
 name: "Patchouli"

@@ -65,4 +65,20 @@ forge-1.18.2:
     }
   update_files:
     - ~
+forge-1.19.2:
+  gradle: |
+    repositories {
+        maven {
+            url "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+    dependencies {
+       compileOnly fg.deobf("curse.maven:jade-324717:4096513")
+       runtimeOnly fg.deobf("curse.maven:jade-324717:4096513")
+    }
+  update_files:
+    - ~
 name: "jade"
