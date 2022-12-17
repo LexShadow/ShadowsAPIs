@@ -9,15 +9,17 @@ If you make any changes to this source please submit a request to have it added,
 
 This plugin will not work with other plugins that add
 
-- Cloth Config ([Doc](https://shedaniel.gitbook.io/cloth-config/))
-- Architectury API ([GitHub](https://github.com/architectury/architectury-api)) 
-- JEI ([Wiki](https://github.com/mezz/JustEnoughItems/wiki))
-- CaftTweaker ([Doc](https://docs.blamejared.com/))
-- Patchouli ([Docs](https://vazkiimods.github.io/Patchouli/))
+- Architectury API ([GitHub](https://github.com/architectury/architectury-api))
 - Bookshelf ([Wiki](https://github.com/Darkhax-Minecraft/Bookshelf/wiki))
-- Jade ([Doc](https://jademc.readthedocs.io/en/latest/))
+- CaftTweaker ([Doc](https://docs.blamejared.com/))
 - Cealus ([GitHub](https://github.com/TheIllusiveC4/Caelus))
+- Cloth Config ([Docs](https://shedaniel.gitbook.io/cloth-config/)) 
+- CTM ([Doc](https://github.com/Chisel-Team/CTMLib/wiki/Standard-CTM-Format))
+- Curios API ([Docs](https://github.com/TheIllusiveC4/Curios))
 - Guidebook ([Wiki](https://github.com/gigaherz/Guidebook/wiki))
+- Jade ([Doc](https://jademc.readthedocs.io/en/latest/))
+- JEI ([Wiki](https://github.com/mezz/JustEnoughItems/wiki))
+- Patchouli ([Docs](https://vazkiimods.github.io/Patchouli/))
 
 
 if you fork this plugin change or remove these lines to match your vrsion 
